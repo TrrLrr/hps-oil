@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "webpack-dev-server --inline --hot"
+    "watch": "webpack-dev-server --inline --hot",
+    "heroku-postbuild": "webpack -p --progress"
   },
   "keywords": [],
   "author": "",
